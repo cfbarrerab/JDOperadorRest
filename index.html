@@ -1,0 +1,11 @@
+<script>
+    const sumar = (x, y, z) => {
+        const args = [x, y, z];
+        return args.reduce((a, b) => a + b, 0);
+       };
+
+       const sumar2 = (...args) => {
+            args.reduce((a, b) => a + b, 0);
+       };
+</script>
+
